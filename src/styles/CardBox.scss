@@ -1,0 +1,21 @@
+.container {
+	background-color: #efefef;
+	padding-top: 50px;
+
+	h1 {
+		// text-align: left;
+
+	}
+
+	.container-cards {
+		display: grid;
+		background-color: #fff;
+		width: fit-content;
+		margin: 0 auto;
+		border-radius: 30px;
+		justify-content: center;
+		grid-template-columns: repeat(3, 400px);
+		gap: 20px;
+		padding: 20px;
+	}
+}
